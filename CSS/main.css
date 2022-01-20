@@ -1,0 +1,17 @@
+/*************
+*Common Style*
+*************/
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto:ital@1&display=swap');
+body{
+   font-family: 'Roboto', sans-serif;
+}
+
+/***********************
+* Header section start *
+************************/
+.header-section{
+    background-color: #FFFBF0;
+}
+/*********************
+* Header section end *
+**********************/
