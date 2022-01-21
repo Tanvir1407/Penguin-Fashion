@@ -1,7 +1,7 @@
 /*************
 *Common Style*
 *************/
-@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto&display=swap');
 body{
    font-family: 'Roboto', sans-serif;
 }
@@ -10,8 +10,59 @@ body{
 * Header section start *
 ************************/
 .header-section{
-    background-color: #FFFBF0;
+   background-color: #FFFBF0;
+}
+.header .heading-part-1{
+   font-size: 50px;
+   color: #FABE4C;
+   text-transform: uppercase;
+   font-weight: bold;
+}
+.header .heading-part-2{
+   font-size: 50px;
+   color: #363958;
+   text-transform: uppercase;
+   font-weight: bold;
+}
+.header p{
+   color: #3E3E3E;
+   font-size: 16px;
+}
+.header button{
+   border: none;
+   background: linear-gradient(180deg, #A4BC46 0%, #85A019 100%);
+   font-size: 16px;
+   color: white;
 }
 /*********************
 * Header section end *
 **********************/
+
+/*********************** 
+**women jacket section**
+************************/
+.women-jekect-section h3{
+   color:#363958;
+   font-size: 36px;
+   font-weight: 700;
+   margin-bottom: 40px;
+}
+.women-jekect-section .card-img{
+   background-color: rgba(182, 181, 181, 0.466);
+   border-radius: 10px;
+}
+.card-title{
+   color: #363958;
+   font-size: 24px;
+   font-weight: 700;
+}
+.card-body .price{
+   color: #FABE4C;
+   font-weight: 900;
+   font-size: x-large;
+}
+.women-jekect-section .card{
+   border-radius: 10px;
+   margin-top: 7px;
+   margin-bottom: 7px;
+}
